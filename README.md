@@ -13,3 +13,26 @@
 <p> Na implementação, coloquei um grau de relevância maior para o título da busca, quando buscar no Elastic, então, quando realiza o filtro pela tag, o sistema realiza uma busca normal, porém quando o sistema localiza a palavra no título, este artigo tem mais relevância do que as tags. </p>
 
 ![](https://github.com/VitorCeron/Laravel_ElasticSearch/blob/master/public/laravel.gif)
+
+### Instalação do projeto
+
+#### Pré Requisitos
+* Xampp
+* ElasticSearch
+* Composer
+* Laravel
+
+#### Instalação
+Clone o repositório:<br>
+``` git clone https://github.com/VitorCeron/Laravel_ElasticSearch.git ``` <br><br>
+Duplique o .env.example e renomeie para .env, adicione no .env a configuração do ElasticSearch <br>
+```
+ELASTICSEARCH_ENABLED=true
+ELASTICSEARCH_HOSTS="localhost:9200"
+```
+Entre no diretório do projeto e instale as dependências <br>
+```composer install``` <br><br>
+Instalar e buildar as dependencias do bootstrap <br>
+```npm install && npm run dev``` <br><br>
+Inicializar o projeto <br>
+```php artisan serve``` <br>
