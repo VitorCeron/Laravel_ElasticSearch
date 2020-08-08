@@ -1,3 +1,5 @@
+![](https://github.com/VitorCeron/Laravel_ElasticSearch/blob/master/public/1_-4XytO_ISOE7KV11AtERhA.png)
+
 # Projeto Laravel + ElasticSearch
 
 ### Descrição
